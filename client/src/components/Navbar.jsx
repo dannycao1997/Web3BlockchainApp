@@ -4,7 +4,11 @@ import { AiOutlineClose } from 'react-icons/ai';
 import logo from '../../images/logo.png';
 
 const NavBarItem = ({title, classProps }) => {
-
+    return (
+        <li className={`mx-4 cursor-pointer ${classProps}`}>
+            {title}
+        </li>
+    );
 }
 
 const Navbar = () => {
@@ -14,7 +18,12 @@ const Navbar = () => {
             <img src={logo} alt ="logo" className="w-32 cursor-pointer"/>
         </div>
             <ul className="text-white md:flex hiddent list-none flex-row justify-between items-centerm flex-initial">
-
+                {["Market", "Exchange", "Tutorials", "Wallets"].map((item,index) => (
+                    <NavBarItem key={item + index} title ={item}/>
+                ))}
+                <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hober:bg-[#2546bd]">
+                    Login
+                </li>
             </ul>
         </nav>
     );
