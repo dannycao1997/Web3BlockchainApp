@@ -1,6 +1,6 @@
 const Services = () => {
     return (
-        <h1>Footer</h1>
+        <h1>Services</h1>
     );
 }
 export default Services;

@@ -1,6 +1,6 @@
 const Transactions = () => {
     return (
-        <h1>Footer</h1>
+        <h1>Transaction</h1>
     );
 }
 export default Transactions;
