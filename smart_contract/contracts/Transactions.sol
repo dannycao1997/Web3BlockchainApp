@@ -7,7 +7,7 @@ import "hardhat/console.sol";
 contract Transactions {
     uint256 transactionCount;
 
-    event Transfer(address from, address receiver, uint amount, string message, uint256 timestamp, string keyword);
+    event Transfer(address from, address receiver, uint amount, string message, uint256 timestamp,  string account, string keyword);
 
     struct TransferStruct {
         address sender;
@@ -15,16 +15,19 @@ contract Transactions {
         uint amount;
         string message;
         uint256 timestamp;
+        string account;
         string keyword;
     }
 
     TransferStruct[] transactions;
 
-    function addToBlockchain(address payable receiver, uint amount, string memory message, string memory keyword) public {
+    function transfer(address payable receiver, uint amount, string memory message, string memory account, string memory keyword) public {
         transactionCount += 1;
-        transactions.push(TransferStruct(msg.sender, receiver, amount, message, block.timestamp, keyword));
+        transactions.push(TransferStruct(msg.sender, receiver, amount, message, block.timestamp, account, keyword));
 
-        emit Transfer(msg.sender, receiver, amount, message, block.timestamp, keyword);
+        emit Transfer(msg.sender, receiver, amount, message, block.timestamp, account, keyword);
+
+        receiver.transfer(amount);
     }
 
     function getAllTransactions() public view returns (TransferStruct[] memory) {
