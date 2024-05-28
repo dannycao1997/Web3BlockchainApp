@@ -53,7 +53,7 @@ const Transactions = () => {
             <div className="flex flex-col md:p-12 py-12 px-4">
                 {currentAccount ? (
                     <h3 className="text-white text-3xl text-center my-2">
-                        Latest Transactions
+                        Latest Blockchain Transactions
                     </h3>
                 ) : (
                     <h3 className="text-white text-3xl text-center my-2">
