@@ -42,9 +42,8 @@ const Welcome = () => {
                     </h1>
                     <div className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
                         <p>
-                            Unlock the full potential of cryptocurrency trading with Dannyverse’s Crypto Exchange. Our platform provides a seamless, intuitive experience for buying, selling, and transferring cryptocurrencies effortlessly, anywhere in the world.
+                            Experience the next level of cryptocurrency exchanges with Dannyverse. Our platform isn't just about trading; it's about connecting. With Dannyverse, you can send cryptocurrency worldwide using MetaWallet, not just as a transaction, but as a message—complete with personalized GIFs. All this happens on a secure, real-world blockchain, ensuring that every transfer is not only seamless but also personal and engaging.
 
-                            Start your journey today and experience the future of finance.
                         </p>
                     </div>
 
