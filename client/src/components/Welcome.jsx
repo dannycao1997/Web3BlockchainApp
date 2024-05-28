@@ -40,9 +40,14 @@ const Welcome = () => {
                     <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
                         Send Crypto <br /> Across the World
                     </h1>
-                    <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-                        Embark on a Global Crypto Journey with Dannyverse. Our platform enables you to effortlessly buy, sell, and transfer cryptocurrencies worldwide. Whether you're making payments, investing, or managing your digital assets, Dannyverse’s Crypto Exchange provides a seamless and secure gateway to the expansive world of cryptocurrencies.
-                    </p>
+                    <div className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
+                        <p>
+                            Unlock the full potential of cryptocurrency trading with Dannyverse’s Crypto Exchange. Our platform provides a seamless, intuitive experience for buying, selling, and transferring cryptocurrencies effortlessly, anywhere in the world.
+
+                            Start your journey today and experience the future of finance.
+                        </p>
+                    </div>
+
                     {!currentAccount && (
                         <button
                             type="button"

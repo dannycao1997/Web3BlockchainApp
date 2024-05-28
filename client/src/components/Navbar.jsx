@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="flex flex-1 items-center">
                 <img src={logo} alt="logo" className="w-8 h-8 mr-2"/>
                 <h1 className="text-3xl font-bold cursor-pointer"
-                    style={{fontFamily: '"Open Sans", sans-serif'}}>Dannyverse</h1>
+                    style={{fontFamily: '"Open Sans", sans-serif'}}>Dannyverse | Crypto Exchange</h1>
             </div>
             <ul className="hidden md:flex list-none flex-row justify-between items-center flex-initial">
                 {["Explore", "Market", "Learn", "Support"].map((item, index) => (
@@ -24,10 +24,10 @@ const Navbar = () => {
                         {item}
                     </li>
                 ))}
-                <li className="bg-pink-400 py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-black min-w-[100px] text-center">
+                <li className="border-2 border-white py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-black min-w-[100px] text-center">
                     Login
                 </li>
-                <li className="bg-pink-400 py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-black min-w-[100px] text-center">
+                <li className="bg-pink-400 py-2 px-7 mx-100 rounded-full cursor-pointer hover:bg-black min-w-[100px] text-center">
                     Sign Up
                 </li>
             </ul>
