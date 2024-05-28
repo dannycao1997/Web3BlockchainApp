@@ -12,9 +12,11 @@ const NavBarItem = ({ title, classprops }) => (
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = React.useState(false);
     return (
-        <nav className="w-full flex justify-between md:justify-center items-center p-4  text-white">
-            <div className="flex flex-1 justify-center md:justify-start">
-                <img src={logo} alt="logo" className="w-32 cursor-pointer"/>
+        <nav className="w-full flex justify-between items-center p-4 text-white">
+            <div className="flex flex-1 items-center">
+                <img src={logo} alt="logo" className="w-8 h-8 mr-2"/>
+                <h1 className="text-3xl font-bold cursor-pointer"
+                    style={{fontFamily: '"Open Sans", sans-serif'}}>Dannyverse</h1>
             </div>
             <ul className="hidden md:flex list-none flex-row justify-between items-center flex-initial">
                 {["Explore", "Market", "Learn", "Support"].map((item, index) => (

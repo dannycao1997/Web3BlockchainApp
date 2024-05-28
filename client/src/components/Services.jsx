@@ -22,9 +22,9 @@ const Services = () => (
         <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
             <div className="flex-1 flex flex-col justify-start items-start">
                 <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient ">
-                    Services that we
+                    Services That We
                     <br />
-                    continue to improve
+                    Continuously Improve
                 </h1>
                 <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
                     The best choice for buying and selling your crypto assets, with the
@@ -37,19 +37,20 @@ const Services = () => (
                     color="bg-[#2952E3]"
                     title="Security Guarantee"
                     icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-                    subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+                    subtitle="Security is our top priority. We utilize advanced encryption methods and multi-layered security protocols to ensure that all transactions and user data are protected.
+                    Our commitment to privacy is unwavering, and we regularly update our systems to guard against new threats, ensuring that your digital assets are always safe."
                 />
                 <ServiceCard
                     color="bg-[#8945F8]"
                     title="Best Exchange Rates"
                     icon={<BiSearchAlt fontSize={21} className="text-white" />}
-                    subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+                    subtitle="Get more for your money. Our platform constantly monitors global cryptocurrency markets to offer you the best possible exchange rates. By leveraging real-time data analysis and our strategic partnerships, we ensure that you receive the most favorable financial conditions for every transaction, maximizing your investment potential."
                 />
                 <ServiceCard
                     color="bg-[#F84550]"
                     title="Fastest Transactions"
                     icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-                    subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+                    subtitle="Experience lightning-fast processing. Our state-of-the-art transaction system ensures that your trades are executed almost instantly. With our optimized network infrastructure and cutting-edge technology, we minimize latency and ensure that your transactions go through swiftly, enabling you to take advantage of market movements as they happen."
                 />
             </div>
         </div>
