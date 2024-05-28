@@ -27,8 +27,7 @@ const Services = () => (
                     Continuously Improve
                 </h1>
                 <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
-                    The best choice for buying and selling your crypto assets, with the
-                    various super friendly services we offer
+                    Your Premier Destination for Buying and Selling Crypto Assets. We are dedicated to providing a user-friendly experience that adapts to your needs. Our platform offers a suite of services designed to make trading cryptocurrencies simple, secure, and rewarding. Here’s how we stand out:
                 </p>
             </div>
 

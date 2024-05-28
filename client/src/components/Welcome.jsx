@@ -38,10 +38,10 @@ const Welcome = () => {
             <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
                 <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
                     <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
-                        Send Crypto <br /> across the world
+                        Send Crypto <br /> Across the World
                     </h1>
                     <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-                        Explore the crypto world. Buy and sell cryptocurrencies easily on Dannyverse's Crypto Exchange.
+                        Embark on a Global Crypto Journey with Dannyverse. Our platform enables you to effortlessly buy, sell, and transfer cryptocurrencies worldwide. Whether you're making payments, investing, or managing your digital assets, Dannyverse’s Crypto Exchange provides a seamless and secure gateway to the expansive world of cryptocurrencies.
                     </p>
                     {!currentAccount && (
                         <button
