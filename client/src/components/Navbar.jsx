@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="flex flex-1 items-center">
                 <img src={logo} alt="logo" className="w-8 h-8 mr-2"/>
                 <h1 className="text-3xl font-bold cursor-pointer"
-                    style={{fontFamily: '"Open Sans", sans-serif'}}>Dannyverse | Blockchain App</h1>
+                    style={{fontFamily: '"Open Sans", sans-serif'}}>Dannyverse | Web 3.0 Blockchain App</h1>
             </div>
             <ul className="hidden md:flex list-none flex-row justify-between items-center flex-initial">
                 {["Explore", "Market", "Learn", "Support"].map((item, index) => (
