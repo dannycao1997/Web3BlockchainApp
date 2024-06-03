@@ -17,7 +17,7 @@ const Footer = () => (
 
         <div className="flex justify-center items-center flex-col mt-5">
             <p className="text-white text-sm text-center">
-                Connect with me on LinkedIn and explore my projects on GitHub :)
+                Connect with me on LinkedIn and explore my projects on GitHub ✨
             </p>
             <div className="mt-2 flex justify-center">
                 <a href="https://www.linkedin.com/in/dannycao97/" target="_blank" rel="noopener noreferrer"
