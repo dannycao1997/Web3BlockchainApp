@@ -36,22 +36,21 @@ const Services = () => (
             <div className="flex-1 flex flex-col justify-start items-center">
                 <ServiceCard
                     color="bg-[#a099ff]"
-                    title="Security Guarantee"
+                    title="MetaMask Integration"
                     icon={<BsShieldLockFill fontSize={21} className="text-white" />}
-                    subtitle="Security is our top priority. We utilize advanced encryption methods and multi-layered security protocols to ensure that all transactions and user data are protected and
-                    regularly update our systems to guard against new threats, ensuring that your digital assets are always safe."
+                    subtitle="Connect your Ethereum wallet effortlessly using MetaMask. This integration ensures that you can manage your digital assets securely and conveniently, making Dannyverse a central hub for your blockchain transactions."
                 />
                 <ServiceCard
                     color="bg-[hsla(357,94%,71%,1)]"
-                    title="Best Exchange Rates"
+                    title="Cryptocurrency Transactions"
                     icon={<MdOutlineRateReview fontSize={21} className="text-white" />}
-                    subtitle="Get more for your money. By leveraging real-time data analysis and our strategic partnerships, we ensure that you receive the most favorable financial conditions for every transaction, maximizing your investment potential."
+                    subtitle="Send Ethereum and other supported cryptocurrencies through a secure, decentralized network. Dannyverse goes beyond traditional transactions by allowing you to send not only funds but also messages and personalized GIFs, adding a unique personal touch to every exchange."
                 />
                 <ServiceCard
                     color="bg-[rgb(152,231,156)]"
-                    title="Fastest Transactions"
+                    title="React.js Framework"
                     icon={<AiOutlineThunderbolt fontSize={21} className="text-white" />}
-                    subtitle="Experience lightning-fast processing. With our optimized network infrastructure and cutting-edge technology, we minimize latency and ensure that your transactions go through swiftly, enabling you to take advantage of market movements as they happen."
+                    subtitle="Built using React.js, Dannyverse provides a responsive and dynamic user experience, ensuring that your interactions with the blockchain are as smooth as they are secure."
                 />
             </div>
         </div>
