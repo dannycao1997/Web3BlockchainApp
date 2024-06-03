@@ -42,7 +42,7 @@ const Welcome = () => {
                     </h1>
                     <div className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
                         <p>
-                            Experience the next level of cryptocurrency exchanges with Dannyverse. Our platform isn't just about trading; it's about connecting. With Dannyverse, you can send cryptocurrency worldwide using MetaWallet, not just as a transaction, but as a message—complete with personalized GIFs. All this happens on a secure, real-world blockchain, ensuring that every transfer is not only seamless but also personal and engaging.
+                            Experience the next level of cryptocurrency exchanges with Dannyverse. Our platform isn't just about trading; it's about connecting. With Dannyverse, you can send cryptocurrency worldwide using MetaMask, not just as a transaction, but as a message—complete with personalized GIFs. All this happens on a secure, real-world blockchain, ensuring that every transfer is not only seamless but also personal and engaging.
 
                         </p>
                     </div>
@@ -62,7 +62,7 @@ const Welcome = () => {
 
                     <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
                         <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
-                            Reliability
+                            MetaMask
                         </div>
                         <div className={companyCommonStyles}>Security</div>
                         <div className={`sm:rounded-tr-2xl ${companyCommonStyles}`}>
