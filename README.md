@@ -33,7 +33,7 @@ Dannyverse is a revolutionary Web 3.0 blockchain application that simplifies the
 
 ## 🔗 Links
 - Project Home: https://dannyverse.tech
-- Repository: https://github.com/dannycao1997/Dannyverse_BlockchainApp
+- Repository: https://github.com/dannycao1997/Web3.0BlockchainApp
 
 
 
