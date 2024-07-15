@@ -1,4 +1,4 @@
-# Dannyverse - Web 3.0 Blockchain Application 🔗
+# Dannyverse - Web3 Blockchain Application 🔗
 
 ## <a name="features"><img src="https://img.icons8.com/?size=100&id=13102&format=png&color=000000" width="40" height="40" alt="Dannyverse Logo"> Live Demo</a>
 Check out the live app! :) [http://dannyverse.tech](http://dannyverse.tech) ✨
