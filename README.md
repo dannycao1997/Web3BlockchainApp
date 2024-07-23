@@ -12,13 +12,13 @@ Dannyverse is a revolutionary Web 3.0 blockchain application that simplifies the
 
 **Dannyverse** is built using the following technologies:</summary>
 
-- [JavaScript](https://www.javascript.com/): The programming language of the Web, essential for any modern web development.
-- [React.js](https://reactjs.org/): A robust JavaScript library for building user interfaces with dynamic, high-performance interactions.
-- [Solidity](https://soliditylang.org/): An object-oriented programming language for writing smart contracts on various blockchain platforms.
-- [MetaMask](https://metamask.io/): A crypto wallet and gateway to blockchain apps, crucial for Ethereum blockchain interactions.
-- [Web3.js](https://web3js.readthedocs.io/): A collection of libraries that allow you to interact with a local or remote Ethereum node, using an HTTP or IPC connection.
-- [Node.js](https://nodejs.org/): A runtime environment that helps in the backend support of this application.
-- [GitHub](https://github.com/): Used for version control and source code management.
+- [JavaScript](https://www.javascript.com/)
+- [React.js](https://reactjs.org/)
+- [Solidity](https://soliditylang.org/)
+- [MetaMask](https://metamask.io/)
+- [Web3.js](https://web3js.readthedocs.io/)
+- [Node.js](https://nodejs.org/)
+- [GitHub](https://github.com/)
 
 </details><br/>
 
@@ -31,9 +31,7 @@ Dannyverse is a revolutionary Web 3.0 blockchain application that simplifies the
 - **Real-Time Updates**: Stay updated with real-time blockchain transactions and alerts.
 - **Responsive Design**: Ensures optimal usability across various devices and screen sizes.
 
-## 🔗 Links
-- Project Home: https://dannyverse.tech
-- Repository: https://github.com/dannycao1997/Web3.0BlockchainApp
+
 
 
 
